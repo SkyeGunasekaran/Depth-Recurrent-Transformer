@@ -307,24 +307,6 @@ The state bank adds overhead per layer:
 
 For long sequences, the state bank can be more efficient than full attention since state size is fixed regardless of sequence length.
 
-## Citation
-
-If you use this code, please cite:
-
-```bibtex
-@article{depth_deltanet,
-  title={Depth-Gated DeltaNet: Layer-to-Layer State Recurrence for Deep Transformers},
-  author={Your Name},
-  year={2024},
-}
-
-@article{yang2024gated,
-  title={Gated Delta Networks: Improving Mamba2 with Delta Rule},
-  author={Yang, Songlin and others},
-  year={2024},
-}
-```
-
 ## License
 
 MIT License - see LICENSE file for details.
